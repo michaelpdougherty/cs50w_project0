@@ -1,0 +1,41 @@
+{% extends "skeleton.html" %}
+
+{% block title %}
+	Home
+{% endblock %}
+
+{% block script %}
+	/index.js
+{% endblock %}
+
+{% block body %}
+	<h1> 
+		Mike Dougherty
+	</h1>
+	<h2>
+		Welcome to my website.
+	<h2>
+	
+	<ul class="text-center landing-nav">
+		<li>
+			<button class='btn btn-primary'>
+				<a href="/about">
+					About
+				</a>
+			</button>
+		</li>
+		<li>
+			<button class="btn btn-primary">
+				<a href="/contact">
+					Contact
+				</a>
+			</button>
+		</li>
+		<li>
+			<button class="btn btn-primary">
+				<a href="/portfolio">
+					Portfolio
+				</a>
+			</button>
+		</li>
+{% endblock %}

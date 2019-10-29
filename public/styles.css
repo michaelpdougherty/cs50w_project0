@@ -1,0 +1,39 @@
+/* basic webpage styles */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	margin-bottom: 30px;
+}
+
+/* headers */
+h1, h2 {
+	font-weight: 300;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+#skyline-img {
+	width: 600px;
+}
+
+@media (max-width: 800px) {
+	#skyline-img {
+		width: 400px;
+	}
+}
+
+.landing-nav * {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
